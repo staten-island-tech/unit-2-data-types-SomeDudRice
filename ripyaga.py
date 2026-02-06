@@ -11,9 +11,43 @@
 # x = "this is a thing"
 # y= x.split( )
 # z = y[0]
-# print(y)
-# print(z)
+#print(y)
+#print(z)
 
-snet = input("wordz")
-list = snet.split()
-print ("snet")
+# snet = input("counter")
+# List = snet.split()
+# def counter():
+#     print (len(List))
+
+# counter()
+
+# day_of_week = input("what day is it? ")
+# if day_of_week == "Friday":
+#     print("correct")
+# else:
+#     print("incorrect")
+
+# x= "test"
+# print (f"hello{x}")
+
+# temp = 75
+# if temp > 68:
+#   print ('warm')
+# elif temp == 68 :
+#   print ('perfect')
+# else:
+#   print ('cold')
+
+# dumbahh = int(input("gimme yo numba :"))
+# GCF = dumbahh%2
+# if GCF == 0:
+#  print ('even')
+# else:
+#  print ('nah thats odd, like your cut')
+money = input(int("bill"),("cervical"))
+bill = int("bill")
+
+
+
+
+
