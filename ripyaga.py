@@ -14,5 +14,6 @@
 # print(y)
 # print(z)
 
-snet = input()
+snet = input("wordz")
+list = snet.split()
 print ("snet")
