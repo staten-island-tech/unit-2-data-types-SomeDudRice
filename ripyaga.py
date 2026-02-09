@@ -44,8 +44,14 @@
 #  print ('even')
 # else:
 #  print ('nah thats odd, like your cut')
-money = input(int("bill"),("cervical"))
-bill = int("bill")
+base = int(input("whats the bill, twinergy"))
+def bill():
+    qualitacally = input("how was it twin")
+    if qualitacally == ("great"):
+        final = base + base * .25
+        print (final)
+    
+
 
 
 
