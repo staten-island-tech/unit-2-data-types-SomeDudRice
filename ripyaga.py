@@ -44,13 +44,40 @@
 #  print ('even')
 # else:
 #  print ('nah thats odd, like your cut')
-base = int(input("whats the bill, twinergy"))
-def bill():
-    qualitacally = input("how was it twin")
-    if qualitacally == ("great"):
-        final = base + base * .25
-        print (final)
-    
+
+# base = int(input("bill"))
+# qualitacally = int(input("quality. 1=great, 2=good, 3=okay, 4= i hope you burn and suffer and hell"))
+# def bill():
+#     if qualitacally == (1):
+#         final = base + base * .25
+#         print (final)
+#     elif qualitacally == (2):
+#         final = base + base * .20
+#         print (final)
+#     elif qualitacally == (3):
+#         final = base + base * .15
+#         print (final)
+#     else:
+#         final = base
+#         print (final)
+# bill()
+
+x=1
+numbs1 = int(input("numbers"))
+numbs2 = int(input("numbers"))
+for i in (range(x ,numbs2)):
+    if(numbs2%x == 0):
+        print (x)
+    x=x+1
+print (numbs2)
+y=1
+numbs1 = int(input("numbers"))
+for i in (range(y ,numbs1)):
+    if(numbs1%y == 0):
+        print (y)
+    y=y+1
+print (numbs1)
+
 
 
 
