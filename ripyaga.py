@@ -61,16 +61,22 @@
 #         final = base
 #         print (final)
 # bill()
-
-x=1
-
 numba = int(input("numbers"))
 number = int(input("numbers2"))
-for i in (range(numba%x == numba and number%x == number)):
-    if(number%x == 0 and numba%x ==0):
-        print (x)
-    else:
-     x=x+1 
+if numba > number:
+    bignumb = numba
+else:
+    bignumb = number
+x = 1
+def calc():
+    for i in range(biggest == bignumb):
+     if numba%x == number%x:
+      biggest = x
+     else:
+      x=x+1
+
+
+
 
 
 
