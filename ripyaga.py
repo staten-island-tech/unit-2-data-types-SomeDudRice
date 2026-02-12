@@ -63,20 +63,16 @@
 # bill()
 
 x=1
-numbs1 = int(input("numbers"))
-numbs2 = int(input("numbers"))
-for i in (range(x ,numbs2)):
-    if(numbs2%x == 0):
+
+numba = int(input("numbers"))
+number = int(input("numbers2"))
+for i in (range(numba%x == numba and number%x == number)):
+    if(number%x == 0 and numba%x ==0):
         print (x)
-    x=x+1
-print (numbs2)
-y=1
-numbs1 = int(input("numbers"))
-for i in (range(y ,numbs1)):
-    if(numbs1%y == 0):
-        print (y)
-    y=y+1
-print (numbs1)
+    else:
+     x=x+1 
+
+
 
 
 
