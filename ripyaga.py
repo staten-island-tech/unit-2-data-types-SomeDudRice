@@ -64,14 +64,14 @@
 
 
 
-numba = int(input("numbers"))
-number = int(input("numbers2"))
-if numba > number:
-    small = number
-else:
-    small = numba
-greatest = 0
-for i in range (2, small +1):
-    if numba%i == 0 and number%i == 0:
-      greatest = i
-print (greatest)
+# numba = int(input("numbers"))
+# number = int(input("numbers2"))
+# if numba > number:
+#     small = number
+# else:
+#     small = numba
+# greatest = 0
+# for i in range (2, small +1):
+#     if numba%i == 0 and number%i == 0:
+#       greatest = i
+# print (greatest)
